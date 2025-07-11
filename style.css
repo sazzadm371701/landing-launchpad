@@ -258,7 +258,7 @@ footer {
 
 .footer-content h1 {
   font-size: 50px;
-  color: #4e47ff;
+  color: #007bff;
   margin-bottom: 20px;
 }
 
@@ -276,5 +276,5 @@ footer {
 }
 
 .footer a:hover {
-  color: #4e47ff;
+  color: #0056b3;
 }
