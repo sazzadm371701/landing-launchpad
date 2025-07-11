@@ -197,3 +197,54 @@ main {
   vertical-align: middle;
   width: 150px;
 }
+
+.newsletter {
+  margin-top: 100px;
+  padding: 70px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.newsletter h1 {
+  color: #000;
+  font-size: 90px;
+  margin-left: 50px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-form label {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-form input {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 450px;
+  margin-top: 3px;
+}
+
+.contact-form textarea {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 450px;
+  height: 100px;
+  margin-top: 3px;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
